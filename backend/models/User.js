@@ -18,8 +18,8 @@ const User = sequelize.define(
           msg: "Name is required",
         },
         len: {
-          args: [20, 60],
-          msg: "Name must be between 20 and 60 characters",
+          args: [1, 100],
+          msg: "Name must be between 1 and 100 characters",
         },
       },
     },

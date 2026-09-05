@@ -1,0 +1,1 @@
+{"success":true,"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6IlVTRVIiLCJpYXQiOjE3ODgzNjkyNzQsImV4cCI6MTc4ODQ1NTY3NH0.A4r0oKQyluLoXLM0w-E-hBj7DVuIxWNE8umnzuXoOTM","user":{"id":1,"name":"Abhishek Kumar Full Stack Developer","email":"abhishek@example.com","address":"Bhopal, Madhya Pradesh","role":"USER"}}

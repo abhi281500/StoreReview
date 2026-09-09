@@ -6,6 +6,9 @@ node_modules/
 .env.*
 !.env.example
 
+# Database backup
+backend/backup.sql
+
 # Logs
 *.log
 npm-debug.log*
@@ -18,9 +21,6 @@ build/
 .vscode/
 .idea/
 
-# OS files
+# OS Files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/

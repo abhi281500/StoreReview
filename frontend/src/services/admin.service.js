@@ -39,3 +39,12 @@ export const getStores = async () => {
   const { data } = await api.get("/admin/stores");
   return data;
 };
+
+export const updatePassword = async (credentials) => {
+  const { data } = await api.put(
+    "/admin/password",
+    credentials
+  );
+
+  return data;
+};

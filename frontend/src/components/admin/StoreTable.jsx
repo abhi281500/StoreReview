@@ -119,10 +119,7 @@ const StoreTable = ({ stores }) => {
                 </button>
               </th>
 
-              {/* Owner */}
-              <th className="px-5 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">
-                Owner
-              </th>
+             
 
               {/* Rating */}
               <th className="px-5 py-4 text-left">
@@ -170,16 +167,7 @@ const StoreTable = ({ stores }) => {
                   {store.email || "—"}
                 </td>
 
-                {/* Owner */}
-                <td className="px-5 py-4">
-                  <p className="text-sm font-medium text-slate-700">
-                    {store.owner?.name || store.ownerName || "—"}
-                  </p>
-
-                  <p className="mt-1 text-xs text-slate-400">
-                    {store.owner?.email || ""}
-                  </p>
-                </td>
+              
 
                 {/* Rating */}
                 <td className="px-5 py-4">
@@ -189,7 +177,7 @@ const StoreTable = ({ stores }) => {
                     </span>
 
                     <span className="font-semibold text-slate-900">
-                      {store.overallRating ?? 0}
+                      {store.rating ?? 0}
                     </span>
 
                     <span className="text-xs text-slate-400">
